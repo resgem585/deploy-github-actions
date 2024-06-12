@@ -1,16 +1,21 @@
 This is a built pipeline with github actions
 
 We need to know how to create a webstatic with S3
+
 https://medium.com/@nneyenu/automation-how-to-deploy-your-static-website-to-s3-using-github-actions-642267301359
 
 1) Create a user and grant policies
+   
    On the AWS console go to the IAM service and Choose Users. Then create a User
+   
    ![image](https://github.com/resgem585/deploy-github-actions/assets/105258020/37761a29-1f90-4b75-ad79-63e8842bd375)
 
    Type the name of the user – Grant Programmatic access after creation
+   
    ![image](https://github.com/resgem585/deploy-github-actions/assets/105258020/a211c193-d3e3-487f-bbac-b83b04fecd5c)
 
    Attach policies directly and select AmazonS3FullAccess
+   
    ![image](https://github.com/resgem585/deploy-github-actions/assets/105258020/14b80bc4-0f39-4857-b240-6a3a11d2c9a8)
    ![image](https://github.com/resgem585/deploy-github-actions/assets/105258020/e7200b18-5c02-42ac-a267-6d5b5be52a58)
 
@@ -20,7 +25,7 @@ https://medium.com/@nneyenu/automation-how-to-deploy-your-static-website-to-s3-u
 
    ![image](https://github.com/resgem585/deploy-github-actions/assets/105258020/9682140b-0018-4301-8933-bfb2220acb62)
 
-2) Go to the repository and click on settings
+3) Go to the repository and click on settings
 
    ![image](https://github.com/resgem585/deploy-github-actions/assets/105258020/630f3908-6f21-48f4-bdae-740c406ce891)
 
@@ -36,7 +41,7 @@ https://medium.com/@nneyenu/automation-how-to-deploy-your-static-website-to-s3-u
    ![image](https://github.com/resgem585/deploy-github-actions/assets/105258020/670e30ce-54b7-4a3d-b654-9d6f8a5c6367)
 
 
-3) Create a workflow
+4) Create a workflow
 
    Navigate to your repository containing the app you wish to deploy and select the Actions tab.
    •	Click on set up workflow yourself

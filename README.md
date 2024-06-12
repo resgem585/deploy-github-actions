@@ -66,6 +66,9 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           SOURCE_DIR: ./main
 
+![image](https://github.com/resgem585/deploy-github-actions/assets/105258020/17cce0ed-84de-4d81-9a94-250589ed120c)
+
+
 Click on commit to save the workflow
 
 4) Run your Pipeline
